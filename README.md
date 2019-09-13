@@ -35,7 +35,7 @@ or:
 
     $ git diff --name-only <commit_1> <commit_2>
     
-One of the infinite ways to get meaningful information from your log history (you get : short hash, committer name, commit short date and commit message :
+One of the infinite ways to get meaningful information from your log history (you get : short hash, committer name, commit short date and commit message):
 
     $ git log --date=short --pretty=format:"%h %cn %cd %s"
  
