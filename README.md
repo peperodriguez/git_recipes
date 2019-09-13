@@ -13,7 +13,7 @@ There is a remote branch you want to track in your local repo (keeping its origi
 
     $ git checkout --track <name_of_remote>/<name_of_remote_branch_to_track>
     
-Remove a local branch (if it is tracking a remote one, the remote is not deleted) ([more info](https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote "No, no Stackoverflow this time! Gotcha!")):
+Remove a local branch (if it is tracking a remote one, it is not deleted) ([more info](https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote "No, no Stackoverflow this time! Gotcha!")):
    
    First, you must pull:
     
