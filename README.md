@@ -22,4 +22,20 @@ Remove a local branch (if it is tracking a remote one, it is not deleted) ([more
    Then, do your magic:
    
     $ git branch -d <name_of_branch>
+    
+Get only the list of files that are different between two checkpoints (working copy, commits, branches...):
+
+    $ git diff --name-only <branch_name>
+    
+or (this one is almost the same as git status):
+    
+    $ git diff --name-only HEAD
+    
+or:
+
+    $ git diff --name-only <commit_1> <commit_2>
+    
+One of the infinite ways to get meaningful information from your log history (you get : short hash, committer name, commit short date and commit message :
+
+    $ git log --date=short --pretty=format:"%h %cn %cd %s"
  
